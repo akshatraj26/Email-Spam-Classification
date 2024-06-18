@@ -1,0 +1,8 @@
+.env
+api.py
+test.py
+async_spam.py
+main3.py
+__pycache__
+.virtual_documents
+.vscode
