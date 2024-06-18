@@ -49,7 +49,7 @@ To run the server, follow these steps:
 
 The REST API provides endpoints for interacting with the spam classification model. Here are the available endpoints:
 
-- `POST /classify`: Endpoint for classifying a single message. Send a JSON object with the message text, and it will return the predicted label ("ham" or "spam").
+- `POST /predict`: Endpoint for classifying a single message. Send a JSON object with the message text, and it will return the predicted label ("ham" or "spam").
 
 Example Request:
 ```json

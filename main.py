@@ -74,7 +74,7 @@ def make_prediction(clean_text):
 
 
 @app.post("/predict", response_model=UserOut)
-async def prediction(item: UserIn):
+async def predict(item: UserIn):
     cleaned_email = preprocess_text(item.email)
     print(cleaned_email)
     label = make_prediction(cleaned_email)

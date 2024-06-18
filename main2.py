@@ -1,5 +1,5 @@
 # Spam Email Classification
-
+# This time we have used dependencies injection
 # Load the Dependencies
 import joblib
 from fastapi import FastAPI, Depends
